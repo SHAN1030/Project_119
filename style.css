@@ -1,0 +1,70 @@
+body 
+{
+    background-color:rgb(255, 200, 0);
+}
+
+#score
+{
+  font-size: 50px;
+  font-weight: bolder; 
+  float:left;
+  color:blueviolet;
+}
+
+#timer
+{
+  font-size: 50px;
+  font-weight: bolder;
+  float:right;
+  color:blueviolet;
+}
+
+#sketchtodraw
+{
+  color:red;
+  font-size: 50px;
+  font-weight:bolder;
+}
+
+#confidence
+{
+  color:blue;
+  font-size: 50px;
+  font-weight:bolder;
+}
+
+#y_sketch
+{
+  color:purple;
+  font-size: 50px;
+  font-weight:bolder;
+}
+
+h1{
+  background-color :white;
+  color:rgb(0, 119, 255);
+}
+
+#show_sketch{
+  float:right;
+
+}
+
+#b_t{
+  font-size:25px;
+  font-weight:bolder;
+}
+
+canvas{
+  border:5px solid white;
+  border-radius:20px;
+  animation-name: example;
+  animation-duration:4s;
+  margin-top:50px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example{
+  from{box-shadow: 1px 1px 38px rgb(244, 2, 2);}
+  to{box-shadow: 1px 1px 38px rgb(128, 22, 22); }
+}
